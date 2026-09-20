@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Zan Song — Data, models, and useful tools</title>
+  <desc id="desc">An original navy and mint banner with an abstract network connecting data, models, and review. Decorative illustration, not measured data.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101c32"/><stop offset="1" stop-color="#173b46"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#9cbed0" stroke-opacity=".07"/></pattern>
+    <linearGradient id="line"><stop stop-color="#5bbab8" stop-opacity=".2"/><stop offset="1" stop-color="#96f1d3"/></linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+  <path d="M64 54H110" stroke="#9aefd3" stroke-width="5" stroke-linecap="round"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="62" y="162" fill="#f4f7fc" font-size="92" font-weight="700" letter-spacing="-3">Zan Song</text>
+    <text x="66" y="218" fill="#b9d2dd" font-size="30">Data, models, and useful tools.</text>
+    <text x="67" y="270" fill="#9aefd3" font-size="17" letter-spacing="3">APPLIED AI / DATA SYSTEMS</text>
+  </g>
+  <g fill="none" stroke="url(#line)" stroke-width="2">
+    <path d="M742 77C820 77 803 160 888 160"/>
+    <path d="M742 160H888"/>
+    <path d="M742 244C820 244 803 160 888 160"/>
+    <path d="M888 160C965 160 958 95 1066 95"/>
+    <path d="M888 160C965 160 958 225 1066 225"/>
+    <circle cx="888" cy="160" r="59" stroke="#8bdac9" stroke-opacity=".15"/>
+    <circle cx="888" cy="160" r="84" stroke="#8bdac9" stroke-opacity=".06"/>
+  </g>
+  <g fill="#182d42" stroke="#628f9b">
+    <rect x="721" y="56" width="42" height="42" rx="12"/>
+    <rect x="721" y="139" width="42" height="42" rx="12"/>
+    <rect x="721" y="223" width="42" height="42" rx="12"/>
+    <rect x="1034" y="67" width="76" height="56" rx="13"/>
+    <rect x="1034" y="197" width="76" height="56" rx="13"/>
+  </g>
+  <g fill="#9aefd3"><circle cx="742" cy="77" r="5"/><circle cx="742" cy="160" r="5"/><circle cx="742" cy="244" r="5"/></g>
+  <rect x="852" y="124" width="72" height="72" rx="22" fill="#a0ecd4"/>
+  <path d="M870 160L882 172L907 147" fill="none" stroke="#183744" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1050 86H1094M1050 96H1081M1050 106H1088M1050 216H1094M1050 226H1081M1050 236H1088" stroke="#91b6c2" stroke-width="3" stroke-linecap="round"/>
+</svg>

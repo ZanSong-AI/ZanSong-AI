@@ -1,49 +1,57 @@
-# Zan Song
+![Zan Song — Data, models, and useful tools](./profile-banner.svg)
 
-**Applied AI · Data Engineering**
+**Applied AI · Data Engineering · Risk Modeling**
 
-I build AI and data tools that turn messy information into traceable findings and useful workflows.
+I work on analytics and AI workflows with **UCLA Digital & Technology Solutions**, and study **Data Science in Health at UCLA** and **Computer Science at Georgia Tech**. My background in finance and healthcare-market research shapes the problems I work on: making complex data useful, building interpretable models, and turning AI prototypes into tools people can inspect.
 
-[Selected work](#selected-projects) · [LinkedIn](https://www.linkedin.com/in/zansong1129/) · [Repositories](https://github.com/ZanSong-AI?tab=repositories)
+[Selected work](#selected-work) · [Experience](./EXPERIENCE.md) · [LinkedIn](https://www.linkedin.com/in/zansong1129/) · [All repositories](https://github.com/ZanSong-AI?tab=repositories)
 
-## Selected projects
+## Selected work
 
-### [ProviderGraph RiskGuard](https://github.com/ZanSong-AI/providergraph-riskguard)
+### 01 / ProviderGraph RiskGuard
 
-Investigates changes in public health-plan provider directories and prepares evidence for an analyst to review.
+**Healthcare data · AI investigation tools**
 
-**Engineering focus:** versioned data · bounded tools · evidence lineage
+An investigation workspace for changes in public health-plan provider directories. It turns source snapshots into evidence an analyst can review.
 
-[![ProviderGraph synthetic demo showing the investigation timeline, cited evidence, and required human review](https://raw.githubusercontent.com/ZanSong-AI/providergraph-riskguard/main/docs/assets/watchtower-agent-demo.png)](https://github.com/ZanSong-AI/providergraph-riskguard/blob/main/docs/DEMO_RUNBOOK.md)
+[![ProviderGraph synthetic demo with an investigation timeline, cited evidence, and a human-review checkpoint](https://raw.githubusercontent.com/ZanSong-AI/providergraph-riskguard/main/docs/assets/watchtower-agent-demo.png)](https://github.com/ZanSong-AI/providergraph-riskguard/blob/main/docs/DEMO_RUNBOOK.md)
 
-*Synthetic demo · analyst review required · no medical or insurance decisions.*
+I developed this project with AI assistance, including the investigation workflow, evidence requirements, stopping conditions, and evaluation scenarios.
 
-[Demo walkthrough](https://github.com/ZanSong-AI/providergraph-riskguard/blob/main/docs/DEMO_RUNBOOK.md) · [Architecture](https://github.com/ZanSong-AI/providergraph-riskguard/blob/main/docs/ARCHITECTURE.md) · [Evaluation](https://github.com/ZanSong-AI/providergraph-riskguard/blob/main/docs/AGENTBENCH.md)
+`Python` `DuckDB` `FastAPI` `React` · *Synthetic demo; analyst review required.*
 
-### [Creator Commerce Governance Agent](https://github.com/ZanSong-AI/creator-commerce-governance-agent)
+[Code](https://github.com/ZanSong-AI/providergraph-riskguard) · [Demo](https://github.com/ZanSong-AI/providergraph-riskguard/blob/main/docs/DEMO_RUNBOOK.md) · [Architecture](https://github.com/ZanSong-AI/providergraph-riskguard/blob/main/docs/ARCHITECTURE.md) · [Evaluation](https://github.com/ZanSong-AI/providergraph-riskguard/blob/main/docs/AGENTBENCH.md)
 
-Connects public policy sources, promotional-media analysis, and reviewable audit evidence. Human approval gates are enforced in the API and database.
+### 02 / Home Credit
 
-**Engineering focus:** OCR/ASR media processing · source-to-review traceability · approval workflows
+**Financial risk · Undergraduate thesis**
 
-*Synthetic evaluation cases · no legal or compliance judgments.*
+My thesis explored a credit-risk framework combining multi-table feature engineering, LightGBM, scorecard interpretation, and generative-AI reporting.
 
-[Demo guide](https://github.com/ZanSong-AI/creator-commerce-governance-agent/blob/main/docs/DEMO_GUIDE.md) · [Architecture](https://github.com/ZanSong-AI/creator-commerce-governance-agent/blob/main/docs/ARCHITECTURE.md) · [Evaluation](https://github.com/ZanSong-AI/creator-commerce-governance-agent/blob/main/reports/EVALUATION_REPORT.md)
+[![Home Credit research design: applicant history, feature aggregation, modeling, and interpretation](./home-credit-flow.svg)](./HOME_CREDIT.md)
 
-### [LocalOps Agent](https://github.com/ZanSong-AI/localops-agent)
+The case study explains the research design and the status of the archived experiments. Numerical performance claims are omitted until the source results can be reconciled and reproduced.
 
-Turns selected meeting notes and email evidence into cited task proposals and draft replies, with local processing and explicit approval.
+`Python` `LightGBM` `Risk modeling` · *Research summary, not a production lending system.*
 
-**Engineering focus:** quote validation · model-failure fallbacks · auditable approval states
+[Read the case study](./HOME_CREDIT.md) · [Data source](https://www.kaggle.com/competitions/home-credit-default-risk)
 
-*Local outputs only · external action adapters disabled.*
+## Experience behind the work
 
-[Walkthrough](https://github.com/ZanSong-AI/localops-agent/blob/main/PORTFOLIO.md) · [Architecture](https://github.com/ZanSong-AI/localops-agent/blob/main/ARCHITECTURE.md) · [Validation](https://github.com/ZanSong-AI/localops-agent/blob/main/VALIDATION.md)
+**UCLA Digital & Technology Solutions** · Campus analytics and AI workflows: SQL performance work, Python data validation, Tableau reporting, and data-categorization experiments.
 
-## How I work
+**Huachuang Securities Research Institute** · Healthcare and market research: SQL-based data collection, Python-assisted analysis, and time-series dashboards.
 
-- Trace findings back to their source data and record what remains unknown.
-- Evaluate complete workflows, including failures and fallback behavior.
-- Make consequential actions explicit and reviewable.
+[More about my work and background →](./EXPERIENCE.md)
 
-Public demos use public or synthetic data. Built with AI assistance, with documented design decisions, evaluations, and limitations. [LocalOps ownership statement](https://github.com/ZanSong-AI/localops-agent/blob/main/docs/OWNERSHIP.md).
+## More systems
+
+**[Creator Commerce Governance Agent](https://github.com/ZanSong-AI/creator-commerce-governance-agent)** — Connects policy-source evidence, OCR/ASR media analysis, and human approval workflows. [Demo](https://github.com/ZanSong-AI/creator-commerce-governance-agent/blob/main/docs/DEMO_GUIDE.md) · [Evaluation](https://github.com/ZanSong-AI/creator-commerce-governance-agent/blob/main/reports/EVALUATION_REPORT.md). *Synthetic cases; no legal or compliance judgments.*
+
+**[LocalOps Agent](https://github.com/ZanSong-AI/localops-agent)** — Turns selected meeting and email evidence into cited task proposals and draft replies. [Walkthrough](https://github.com/ZanSong-AI/localops-agent/blob/main/PORTFOLIO.md) · [Validation](https://github.com/ZanSong-AI/localops-agent/blob/main/VALIDATION.md). *Local outputs; external action adapters disabled.*
+
+## How I build
+
+Start with the question someone needs answered. Keep the unit of analysis clear, compare against a baseline, and make the result traceable. Document what I designed, what AI helped implement, and what has actually been tested.
+
+Public AI demos use public or synthetic data. Employer data and internal artifacts are not included. [AI-assisted development and ownership](https://github.com/ZanSong-AI/localops-agent/blob/main/docs/OWNERSHIP.md).

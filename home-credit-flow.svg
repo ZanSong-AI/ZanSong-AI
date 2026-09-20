@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">Home Credit research design</title>
+  <desc id="desc">Conceptual flow from applicant and historical tables, through feature engineering and LightGBM modeling, to scorecard and narrative interpretation. This is a research-design illustration, not a benchmark or live lending system.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f1f6fb"/><stop offset="1" stop-color="#e5f2ed"/></linearGradient></defs>
+  <rect width="1200" height="400" rx="24" fill="url(#bg)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="50" y="64" font-size="18" font-weight="700" letter-spacing="2" fill="#386b68">FINANCE × MACHINE LEARNING</text>
+    <text x="48" y="117" font-size="43" font-weight="700" letter-spacing="-1" fill="#172d43">Home Credit</text>
+    <text x="50" y="149" font-size="21" fill="#486079">A research framework for credit-risk modeling and interpretation</text>
+    <g fill="#fff" stroke="#cadbdc"><rect x="50" y="191" width="249" height="124" rx="16"/><rect x="333" y="191" width="249" height="124" rx="16"/><rect x="616" y="191" width="249" height="124" rx="16"/><rect x="899" y="191" width="249" height="124" rx="16"/></g>
+    <g fill="#598680" font-size="15" font-weight="700"><text x="72" y="221">01 / DATA</text><text x="355" y="221">02 / FEATURES</text><text x="638" y="221">03 / MODEL</text><text x="921" y="221">04 / INTERPRETATION</text></g>
+    <g fill="#172d43" font-size="26" font-weight="700"><text x="72" y="258">Applicant history</text><text x="355" y="258">Aggregate</text><text x="638" y="258">LightGBM</text><text x="921" y="258">Explain</text></g>
+    <g fill="#486079" font-size="17"><text x="72" y="289">Applications + linked tables</text><text x="355" y="289">Ratios + temporal signals</text><text x="638" y="289">Baseline + validation design</text><text x="921" y="289">Scorecard + narrative</text></g>
+    <g stroke="#598680" stroke-width="2" fill="none"><path d="M305 253H325L319 247M325 253L319 259"/><path d="M588 253H608L602 247M608 253L602 259"/><path d="M871 253H891L885 247M891 253L885 259"/></g>
+    <text x="50" y="359" font-size="18" fill="#486079">UNDERGRADUATE THESIS  /  Research design, not a production lending system</text>
+  </g>
+</svg>
