@@ -3,46 +3,50 @@
   <img src="./profile-banner.svg" alt="Zan Song — Applied AI and Data Engineering. From messy data to useful tools." width="100%">
 </picture>
 
-**I build data pipelines and AI tools that make complex information easier to use.**
+**I build data pipelines and AI tools for healthcare, risk, and everyday workflows.**
 
 My work connects healthcare data, financial risk, and workflows people can inspect. I work on analytics and AI workflows with **UCLA Digital & Technology Solutions**, and study **Data Science in Health at UCLA** and **Computer Science at Georgia Tech**.
 
-[Selected work](#selected-work) · [Research](#research) · [Background](./EXPERIENCE.md) · [LinkedIn](https://www.linkedin.com/in/zansong1129/)
+[Featured project](#selected-work) · [More work](#more-work) · [Engineering notes](#engineering-notes) · [Background](./EXPERIENCE.md)
 
 ## Selected work
 
-Three projects, three parts of the workflow: investigate data, review evidence, and turn information into useful proposals.
-
 [![01 — ProviderGraph RiskGuard. Healthcare data and AI investigation.](./project-providergraph.svg)](https://github.com/ZanSong-AI/providergraph-riskguard)
 
-### ProviderGraph RiskGuard
+### ProviderGraph RiskGuard · Featured
 
-An investigation workspace for changes in public health-plan provider directories. Source snapshots become evidence an analyst can trace and review.
+**What changed in a provider directory—and what evidence supports it?** ProviderGraph turns versioned public-source snapshots into investigation timelines an analyst can inspect.
 
-**Engineering focus:** versioned data, bounded read-only tools, and explicit stopping conditions. I developed the investigation workflow, evidence requirements, and evaluation scenarios with AI assistance.
+My focus is the investigation workflow, evidence requirements, and evaluation scenarios, developed with AI assistance. Three design choices shape the system:
+
+- **Keep the history:** versioned snapshots and source references make changes traceable.
+- **Bound the agent:** the local model can propose a tool; deterministic policy controls execution.
+- **Make uncertainty visible:** unresolved evidence gaps stop at human review.
 
 `Python` `DuckDB` `FastAPI` `React`
 
-[Explore the code →](https://github.com/ZanSong-AI/providergraph-riskguard) · [Demo guide](https://github.com/ZanSong-AI/providergraph-riskguard/blob/main/docs/DEMO_RUNBOOK.md) · [Architecture](https://github.com/ZanSong-AI/providergraph-riskguard/blob/main/docs/ARCHITECTURE.md) · [Evaluation](https://github.com/ZanSong-AI/providergraph-riskguard/blob/main/docs/AGENTBENCH.md)
-
-<details>
-<summary>See the investigation interface</summary>
+[Explore the code →](https://github.com/ZanSong-AI/providergraph-riskguard) · [Run the offline demo](https://github.com/ZanSong-AI/providergraph-riskguard/blob/main/docs/DEMO_RUNBOOK.md) · [Architecture](https://github.com/ZanSong-AI/providergraph-riskguard/blob/main/docs/ARCHITECTURE.md) · [Evaluation & limits](https://github.com/ZanSong-AI/providergraph-riskguard/blob/main/docs/AGENTBENCH.md)
 
 [![ProviderGraph synthetic demo: investigation timeline, cited evidence, and human review](https://raw.githubusercontent.com/ZanSong-AI/providergraph-riskguard/main/docs/assets/watchtower-agent-demo.png)](https://github.com/ZanSong-AI/providergraph-riskguard/blob/main/docs/DEMO_RUNBOOK.md)
 
-</details>
-
 *Synthetic demo; analyst review required. Not a medical or autonomous insurance decision system.*
 
-<br>
+<details>
+<summary>Watch the 19-second walkthrough</summary>
 
-[![02 — Creator Commerce. Policy evidence and multimodal review.](./project-creator.svg)](https://github.com/ZanSong-AI/creator-commerce-governance-agent)
+![Silent ProviderGraph walkthrough of the controlled offline demo](https://raw.githubusercontent.com/ZanSong-AI/providergraph-riskguard/main/docs/assets/providergraph-demo.gif)
+
+Silent loop from the controlled offline demo. Close this section to hide the animation. [Open the static screenshot instead](https://raw.githubusercontent.com/ZanSong-AI/providergraph-riskguard/main/docs/assets/watchtower-agent-demo.png).
+
+</details>
+
+## More work
 
 ### Creator Commerce Governance Agent
 
-Connects policy-source evidence with synthetic promotional-media analysis and a human-reviewed audit trail.
+**Multimodal evidence, from source to review.** Connects policy-source snapshots with OCR/ASR analysis of synthetic promotional media and a human-reviewed audit trail.
 
-**Engineering focus:** immutable source snapshots, OCR/ASR processing, and approval gates before a requirement can activate a control.
+**Engineering focus:** immutable sources, media-processing jobs, and database-backed approval gates. A requirement cannot activate a control before human approval.
 
 `Python` `PostgreSQL` `FastAPI` `React`
 
@@ -59,21 +63,24 @@ Point-in-time local demo using public-source metadata and fictional cases.
 
 *Synthetic cases; no legal or compliance judgments. Human approval is required.*
 
-<br>
-
-[![03 — LocalOps Agent. Local-first information and task workflows.](./project-localops.svg)](https://github.com/ZanSong-AI/localops-agent)
-
 ### LocalOps Agent
 
-Turns selected meeting and email evidence into cited task proposals and draft replies, with private processing kept local.
+**Useful proposals from private information.** Turns selected meeting and email evidence into source-quoted tasks and draft replies, with processing kept local.
 
-**Engineering focus:** source-quote validation, auditable state transitions, and human approval before local export.
+**My focus:** local-first workflow design, task/draft state transitions, and failure evaluations. Human approval is required before local export.
 
 `Python` `SQLite` `Ollama`
 
 [Explore the code →](https://github.com/ZanSong-AI/localops-agent) · [Walkthrough](https://github.com/ZanSong-AI/localops-agent/blob/main/PORTFOLIO.md) · [Validation](https://github.com/ZanSong-AI/localops-agent/blob/main/VALIDATION.md)
 
 *Local outputs only; external action adapters are disabled.*
+
+## Engineering notes
+
+Two examples of the decisions behind the interfaces:
+
+- **[When a keyword matcher overreaches](https://github.com/ZanSong-AI/creator-commerce-governance-agent/blob/main/reports/EVALUATION_REPORT.md#retained-errors):** matching `ad` inside unrelated words produced false positives. The evaluation record preserves the correction and remaining OCR/ASR misses.
+- **[Why retries were not the fix](https://github.com/ZanSong-AI/localops-agent/blob/main/docs/OWNERSHIP.md):** a retry-only change added latency without improving the observed local-model result. Deterministic fallbacks kept citation and approval boundaries intact.
 
 ## Research
 
