@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="490" viewBox="0 0 600 490" role="img" aria-labelledby="title desc">
+  <title id="title">Zan Song — Applied AI and Data Engineering</title>
+  <desc id="desc">From messy data to useful tools. Original portfolio artwork.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#11172a"/><stop offset="1" stop-color="#183f46"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#a8f0d1"/><stop offset="1" stop-color="#aca7ff"/></linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#a0b9c2" opacity=".15"/></pattern>
+  </defs>
+  <rect width="600" height="490" rx="28" fill="url(#bg)"/>
+  <rect width="600" height="490" rx="28" fill="url(#dots)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="38" y="59" fill="#b5c5d5" font-size="18" letter-spacing="2">APPLIED AI / DATA ENGINEERING</text>
+    <text x="35" y="165" fill="#f7f8fc" font-size="80" font-weight="700" letter-spacing="-4">Zan Song<tspan fill="#a8f0d1">.</tspan></text>
+    <text x="38" y="245" fill="#f7f8fc" font-size="44" font-weight="700" letter-spacing="-1">From messy data</text>
+    <text x="38" y="301" fill="#a8f0d1" font-size="44" font-weight="700" letter-spacing="-1">to useful tools.</text>
+    <path d="M40 351H557" stroke="url(#accent)" stroke-width="2"/>
+    <text x="38" y="398" fill="#c6d6df" font-size="21">Healthcare data · Financial risk</text>
+    <text x="38" y="441" fill="#8cabb7" font-size="17" letter-spacing="2">DATA → MODELS → HUMAN REVIEW</text>
+  </g>
+</svg>

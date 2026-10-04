@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+  <title id="title">03 — LocalOps Agent</title>
+  <desc id="desc">Local-first information and task workflows. Decorative task illustration, not a measured result.</desc>
+  <defs><linearGradient id="bg"><stop stop-color="#322b24"/><stop offset="1" stop-color="#222638"/></linearGradient></defs>
+  <rect width="1200" height="180" rx="20" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="178" rx="19" fill="none" stroke="#f3cd93" stroke-opacity=".25"/>
+  <path d="M1 35V145" stroke="#f3cd93" stroke-width="4"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="36" y="67" fill="#f3cd93" font-size="20" letter-spacing="3">03 / LOCAL-FIRST WORKFLOWS</text>
+    <text x="34" y="133" fill="#fcf7f0" font-size="50" font-weight="700" letter-spacing="-1">LocalOps Agent</text>
+    <text x="800" y="127" fill="#bdafa2" font-size="18" letter-spacing="2">PREPARE</text>
+  </g>
+  <g fill="none" stroke="#f3cd93" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="966" y="35" width="126" height="108" rx="16" fill="#3a3435"/>
+    <path d="M986 63H1028M986 87H1010M1029 87H1071M1029 114H1061"/>
+    <rect x="985" y="103" width="19" height="19" rx="4"/>
+    <path d="M989 112L993 116L1000 108"/>
+    <circle cx="1107" cy="46" r="14" fill="#28303b"/>
+    <path d="M1103 45V41A4 4 0 0 1 1111 41V45M1102 45H1112V53H1102Z"/>
+  </g>
+</svg>

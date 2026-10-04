@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+  <title id="title">01 — ProviderGraph RiskGuard</title>
+  <desc id="desc">Healthcare data and AI investigation. Decorative network artwork, not experiment results.</desc>
+  <defs><linearGradient id="bg"><stop stop-color="#102c32"/><stop offset="1" stop-color="#162334"/></linearGradient></defs>
+  <rect width="1200" height="180" rx="20" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="178" rx="19" fill="none" stroke="#8fe8c1" stroke-opacity=".2"/>
+  <path d="M1 35V145" stroke="#9bf0cf" stroke-width="4"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="36" y="67" fill="#9bf0cf" font-size="20" letter-spacing="3">01 / HEALTHCARE DATA</text>
+    <text x="34" y="133" fill="#f2f8fa" font-size="50" font-weight="700" letter-spacing="-1">ProviderGraph</text>
+    <text x="770" y="127" fill="#91b2bc" font-size="18" letter-spacing="2">INVESTIGATE</text>
+  </g>
+  <g fill="none" stroke="#9bf0cf" stroke-width="2">
+    <path d="M969 48L1025 89L1095 42M1025 89L1102 132M969 48L951 127L1025 89" opacity=".45"/>
+    <circle cx="969" cy="48" r="8"/><circle cx="951" cy="127" r="8"/><circle cx="1095" cy="42" r="8"/><circle cx="1102" cy="132" r="8"/>
+    <circle cx="1025" cy="89" r="18" fill="#214b4c"/><circle cx="1025" cy="89" r="35" opacity=".2"/>
+  </g>
+</svg>

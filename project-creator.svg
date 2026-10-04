@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+  <title id="title">02 — Creator Commerce Governance Agent</title>
+  <desc id="desc">Policy evidence and multimodal review. Decorative evidence layers, not a product screenshot.</desc>
+  <defs><linearGradient id="bg"><stop stop-color="#282441"/><stop offset="1" stop-color="#1c2338"/></linearGradient></defs>
+  <rect width="1200" height="180" rx="20" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="178" rx="19" fill="none" stroke="#bcb0ff" stroke-opacity=".25"/>
+  <path d="M1 35V145" stroke="#c3b4ff" stroke-width="4"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="36" y="67" fill="#c3b4ff" font-size="20" letter-spacing="3">02 / MULTIMODAL EVIDENCE</text>
+    <text x="34" y="133" fill="#f4f2fc" font-size="50" font-weight="700" letter-spacing="-1">Creator Commerce</text>
+    <text x="805" y="127" fill="#aca6c8" font-size="18" letter-spacing="2">REVIEW</text>
+  </g>
+  <g stroke="#c3b4ff" fill="none" stroke-width="2">
+    <rect x="980" y="27" width="118" height="88" rx="13" opacity=".25"/>
+    <rect x="967" y="41" width="118" height="88" rx="13" fill="#2b2b49" opacity=".6"/>
+    <rect x="954" y="55" width="118" height="88" rx="13" fill="#30304d"/>
+    <path d="M973 77H1017M973 88H999M973 108L984 119L1004 99M1025 106H1053M1025 119H1046" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

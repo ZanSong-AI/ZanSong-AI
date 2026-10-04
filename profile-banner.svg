@@ -1,37 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">Zan Song — Data, models, and useful tools</title>
-  <desc id="desc">An original navy and mint banner with an abstract network connecting data, models, and review. Decorative illustration, not measured data.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Zan Song — Applied AI and Data Engineering</title>
+  <desc id="desc">From messy data to useful tools. Original artwork showing data flowing through models to human review, not a product screenshot.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101c32"/><stop offset="1" stop-color="#173b46"/></linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#9cbed0" stroke-opacity=".07"/></pattern>
-    <linearGradient id="line"><stop stop-color="#5bbab8" stop-opacity=".2"/><stop offset="1" stop-color="#96f1d3"/></linearGradient>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#11172a"/><stop offset=".55" stop-color="#162537"/><stop offset="1" stop-color="#1b4147"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#a8f0d1"/><stop offset="1" stop-color="#b5a9ff"/></linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#b8d3dd" opacity=".13"/></pattern>
   </defs>
-  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
-  <path d="M64 54H110" stroke="#9aefd3" stroke-width="5" stroke-linecap="round"/>
+  <rect width="1200" height="430" rx="26" fill="url(#bg)"/>
+  <rect width="1200" height="430" rx="26" fill="url(#dots)"/>
+  <path d="M48 46H1152" stroke="#6a8b99" stroke-opacity=".23"/>
   <g font-family="Arial, Helvetica, sans-serif">
-    <text x="62" y="162" fill="#f4f7fc" font-size="92" font-weight="700" letter-spacing="-3">Zan Song</text>
-    <text x="66" y="218" fill="#b9d2dd" font-size="30">Data, models, and useful tools.</text>
-    <text x="67" y="270" fill="#9aefd3" font-size="17" letter-spacing="3">APPLIED AI / DATA SYSTEMS</text>
+    <text x="48" y="84" fill="#bcc9d9" font-size="16" letter-spacing="3">APPLIED AI / DATA ENGINEERING</text>
+    <text x="44" y="188" fill="#f7f8fc" font-size="92" font-weight="700" letter-spacing="-4">Zan Song<tspan fill="#a8f0d1">.</tspan></text>
+    <text x="48" y="260" fill="#f2f6fa" font-size="47" font-weight="700" letter-spacing="-1">From messy data</text>
+    <text x="48" y="319" fill="#a8f0d1" font-size="47" font-weight="700" letter-spacing="-1">to useful tools.</text>
+    <text x="49" y="382" fill="#b2c5d1" font-size="19">Healthcare data</text>
+    <circle cx="213" cy="376" r="3" fill="#8da5b0"/>
+    <text x="230" y="382" fill="#b2c5d1" font-size="19">Financial risk</text>
   </g>
-  <g fill="none" stroke="url(#line)" stroke-width="2">
-    <path d="M742 77C820 77 803 160 888 160"/>
-    <path d="M742 160H888"/>
-    <path d="M742 244C820 244 803 160 888 160"/>
-    <path d="M888 160C965 160 958 95 1066 95"/>
-    <path d="M888 160C965 160 958 225 1066 225"/>
-    <circle cx="888" cy="160" r="59" stroke="#8bdac9" stroke-opacity=".15"/>
-    <circle cx="888" cy="160" r="84" stroke="#8bdac9" stroke-opacity=".06"/>
+  <g fill="none" stroke="url(#accent)" stroke-width="1.6" opacity=".55">
+    <path d="M727 139H807Q829 139 829 165V210H882"/>
+    <path d="M727 280H807Q829 280 829 254V210"/>
+    <path d="M979 210H1050Q1082 210 1082 245V299"/>
+    <circle cx="931" cy="210" r="75" opacity=".3"/>
+    <circle cx="931" cy="210" r="102" opacity=".12"/>
   </g>
-  <g fill="#182d42" stroke="#628f9b">
-    <rect x="721" y="56" width="42" height="42" rx="12"/>
-    <rect x="721" y="139" width="42" height="42" rx="12"/>
-    <rect x="721" y="223" width="42" height="42" rx="12"/>
-    <rect x="1034" y="67" width="76" height="56" rx="13"/>
-    <rect x="1034" y="197" width="76" height="56" rx="13"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="647" y="102" width="132" height="72" rx="14" fill="#1b3041" stroke="#436574"/>
+    <path d="M668 124H721M668 135H708M668 146H731" stroke="#9bbfc8" stroke-width="3" stroke-linecap="round"/>
+    <text x="654" y="198" fill="#8dafbd" font-size="12" letter-spacing="2">SOURCE DATA</text>
+    <rect x="647" y="244" width="132" height="72" rx="14" fill="#232b42" stroke="#4e597a"/>
+    <path d="M668 266H734M668 277H709M668 288H724" stroke="#b0acd8" stroke-width="3" stroke-linecap="round"/>
+    <text x="654" y="340" fill="#999ebd" font-size="12" letter-spacing="2">CONTEXT</text>
+    <rect x="878" y="157" width="106" height="106" rx="25" fill="#a8f0d1"/>
+    <path d="M907 195L893 210L907 225M955 195L969 210L955 225M938 188L924 232" fill="none" stroke="#21483e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="889" y="291" fill="#c3e9dc" font-size="12" letter-spacing="2">BUILD + TEST</text>
+    <rect x="1011" y="299" width="143" height="65" rx="14" fill="#253747" stroke="#597986"/>
+    <circle cx="1037" cy="331" r="12" fill="#a8f0d1"/>
+    <path d="M1031 331L1035 335L1043 327" fill="none" stroke="#24493f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1057" y="329" fill="#edf6f8" font-size="12">HUMAN</text>
+    <text x="1057" y="345" fill="#edf6f8" font-size="12" letter-spacing="1">REVIEW</text>
   </g>
-  <g fill="#9aefd3"><circle cx="742" cy="77" r="5"/><circle cx="742" cy="160" r="5"/><circle cx="742" cy="244" r="5"/></g>
-  <rect x="852" y="124" width="72" height="72" rx="22" fill="#a0ecd4"/>
-  <path d="M870 160L882 172L907 147" fill="none" stroke="#183744" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M1050 86H1094M1050 96H1081M1050 106H1088M1050 216H1094M1050 226H1081M1050 236H1088" stroke="#91b6c2" stroke-width="3" stroke-linecap="round"/>
+  <path d="M646 381H1154" stroke="url(#accent)" stroke-opacity=".28"/>
 </svg>
