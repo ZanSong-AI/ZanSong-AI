@@ -7,7 +7,7 @@
 
 My work connects healthcare data, financial risk, and workflows people can inspect. I work on analytics and AI workflows with **UCLA Digital & Technology Solutions**, and study **Data Science in Health at UCLA** and **Computer Science at Georgia Tech**.
 
-[Featured project](#selected-work) · [More work](#more-work) · [Engineering notes](#engineering-notes) · [Background](./EXPERIENCE.md)
+[Featured](#selected-work) · [Projects](#more-work) · [Notes](#engineering-notes) · [About](./EXPERIENCE.md)
 
 ## Selected work
 
