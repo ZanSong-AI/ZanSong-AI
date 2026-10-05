@@ -7,6 +7,8 @@
 
 My work connects healthcare data, financial risk, and workflows people can inspect. I work on analytics and AI workflows with **UCLA Digital & Technology Solutions**, and study **Data Science in Health at UCLA** and **Computer Science at Georgia Tech**.
 
+**[Visit my portfolio →](https://zan-song.zansong.chatgpt.site/)** — project stories and a no-setup synthetic demo.
+
 [Featured](#selected-work) · [Projects](#more-work) · [Notes](#engineering-notes) · [About](./EXPERIENCE.md)
 
 ## Selected work
@@ -24,6 +26,8 @@ My focus is the investigation workflow, evidence requirements, and evaluation sc
 - **Make uncertainty visible:** unresolved evidence gaps stop at human review.
 
 `Python` `DuckDB` `FastAPI` `React`
+
+**[Try the browser demo →](https://zan-song.zansong.chatgpt.site/demo/)** — compare three synthetic snapshot pairs, inspect evidence, and record a sample review. Browser-only illustration: no Python agent execution, live model calls, or real provider verification.
 
 [Explore the code →](https://github.com/ZanSong-AI/providergraph-riskguard) · [Run the offline demo](https://github.com/ZanSong-AI/providergraph-riskguard/blob/main/docs/DEMO_RUNBOOK.md) · [Architecture](https://github.com/ZanSong-AI/providergraph-riskguard/blob/main/docs/ARCHITECTURE.md) · [Evaluation & limits](https://github.com/ZanSong-AI/providergraph-riskguard/blob/main/docs/AGENTBENCH.md)
 
